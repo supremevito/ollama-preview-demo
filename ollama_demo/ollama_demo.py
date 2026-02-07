@@ -78,7 +78,7 @@ if __name__ == "__main__":
     
     # 示例 1: 普通调用（非流式）
     print("\n【示例 1】普通调用（一次性返回）")
-    question = "什么是人工智能？用一句话回答。"
+    question = "什么是人工智能？用一句话回答。(中文)"
     print(f"问题: {question}")
     answer = chat_with_ollama(question, model="llama2")
     print(f"回答: {answer}")
